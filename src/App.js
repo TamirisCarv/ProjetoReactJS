@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import AppRoutes from "./Routes";
+ 
+// import Header from "./components/Header";
+// import Banner from "./components/Banner";
+// import Lanches from "./components/Lanches";
+// import Sobremesas from "./components/Sobremesas";
+// import Delivery from "./components/Delivery";
+// import Footer from "./components/Footer";
+// import RoutesApp from "./routes";
+// // import Section from "./components/Section";
+// // import ListItem from "./components/ListItem";
+ 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppRoutes/>
     </div>
   );
 }
-
+ 
 export default App;
